@@ -8,7 +8,7 @@ public class BackwardsString extends SpecialString {
 
 	@Override
 	public String funkifyText(String s) {
-		
+		//I think I need to make this method spell things backwards
 		return "";
 	}
 
