@@ -8,8 +8,12 @@ public class BackwardsString extends SpecialString {
 
 	@Override
 	public String funkifyText(String s) {
-		//I think I need to make this method spell things backwards
-		return "";
+		String backwardsMessage = new String();
+		for (int i = s.length()-1; i >= 0; i--) {
+			backwardsMessage += s.charAt(i);
+		}
+		System.out.println(backwardsMessage);
+		return backwardsMessage;
 	}
 
 }
