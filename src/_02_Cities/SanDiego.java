@@ -1,6 +1,6 @@
 package _02_Cities;
 
-public class SanDiego extends City{
+public class SanDiego extends City {
 
 	public SanDiego(int population, double growthRate) {
 		super(population, growthRate);
@@ -8,6 +8,6 @@ public class SanDiego extends City{
 
 	@Override
 	double getAnnualTaxes() {
-		return 0;
+		return population * growthRate + 1000000;
 	}
 }
